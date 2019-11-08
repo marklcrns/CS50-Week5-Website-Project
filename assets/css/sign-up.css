@@ -1,0 +1,12 @@
+.container-form {
+  color: #fff;
+  padding: 0 35px;
+}
+
+.container-form label {
+  font-weight: 600;
+}
+
+label.form-check-label {
+  font-weight: 400;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <!-- Font Awesome for vector icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <!-- Page Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/home.css">
+  <title>Awesome Website</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="./index.html">CS50 Project</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Gallery
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./assets/pages/acoustic.html">Acoustic Guitar</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="./assets/pages/hiking.html">Hiking Trails</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="./assets/pages/galaxy.html">Galaxy</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./assets/pages/sign-up.html">Sign Up</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0" action="https://google.com/search" method="get">
+        <input class="form-control mr-sm-2" type="text" name="q" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-homepage">
+    <div class="jumbotron-content">
+      <h1 class="display-4">Hello CS50</h1>
+      <h3 class="lead">Welcome to the gallery of awesome responsive photos I'm interested in and do as hobbies</h3>
+      <hr class="my-4">
+      <a class="btn btn-cta" href="./assets/pages/sign-up.html" role="button">
+        <span id="cta-link">Sign Me Up!</span>
+      </a>
+      <p>Sign up to see more awesome pics everyday... not really, but please do click ;)</p>
+      <div class="wrapper-scroll-btn">
+        <div class="scroll-btn">
+          <h5>
+            click to see below
+          </h5>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cards Gallery -->
+  <section class="container container-card">
+    <div class="card-deck">
+      <!-- Guitar -->
+      <div class="card text-center mx-3">
+        <a
+          href="https://images.unsplash.com/photo-1531907933630-126f527982d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60">
+          <div class="card-img-container card-img-1"></div>
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">Cool Acoustic Guitar</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nam minus earum labore
+            a quam vel? Reiciendis, vero? Veniam, recusandae!
+          </p>
+          <a href="./assets/pages/acoustic.html" class="btn btn-info">More Please!</a>
+        </div>
+      </div>
+      <!-- Hiking -->
+      <div class="card text-center mx-3">
+        <a
+          href="https://images.unsplash.com/photo-1533240332313-0db49b459ad6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60">
+          <div class="card-img-container card-img-2"></div>
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">Relaxing Hiking Trails</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nam minus earum labore
+            a quam vel? Reiciendis, vero? Veniam, recusandae!
+          </p>
+          <a href="./assets/pages/hiking.html" class="btn btn-info">More Please!</a>
+        </div>
+      </div>
+      <!-- Galaxy -->
+      <div class="card text-center mx-3">
+        <a
+          href="https://images.unsplash.com/photo-1509515837298-2c67a3933321?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=60">
+          <div class="card-img-container card-img-3"></div>
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">Awesome Galaxy Gallery</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nam minus earum labore
+            a quam vel? Reiciendis, vero? Veniam, recusandae!
+          </p>
+          <a href="./assets/pages/galaxy.html" class="btn btn-info">More Please!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap 4.3 optional scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

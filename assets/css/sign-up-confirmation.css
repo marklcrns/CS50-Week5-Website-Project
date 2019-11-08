@@ -1,0 +1,28 @@
+body {
+  position: relative;
+}
+
+.jumbotron::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-image: url(https://media2.giphy.com/media/111ebonMs90YLu/giphy.webp?cid=790b76117008e6683fce537fe5cb42ad280fadd9ec588e79&rid=giphy.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 110%;
+}
+
+.jumbotron {
+  margin: 56px 30px 0 30px;
+}
+
+.jumbotron-content {
+  padding: 80px;
+  z-index: 1;
+}

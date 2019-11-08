@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sign Up</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="../css/styles.css">
+  <!-- Page Stylesheet -->
+  <link rel="stylesheet" href="../css/sign-up.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="../../index.html">CS50 Project</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Gallery
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./acoustic.html">Acoustic Guitar</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="./hiking.html">Hiking Trails</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="./galaxy.html">Galaxy</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./sign-up.html">Sign Up</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0" action="https://google.com/search" method="get">
+        <input class="form-control mr-sm-2" type="text" name="q" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-signup">
+    <div class="jumbotron-content">
+      <h1 class="display-4">Sign Up</h1>
+    </div>
+  </div>
+
+  <!-- Sign Up form -->
+  <div class="container container-form">
+    <form class="mx-auto" action="./sign-up-confirmation.html">
+      <div class="form-row">
+        <!-- First Name -->
+        <div class="form-group col-6">
+          <label for="inputFirstName">First Name</label>
+          <input type="text" class="form-control" id="inputFirstName" placeholder="John" required>
+        </div>
+        <!-- Last Name -->
+        <div class="form-group col-6">
+          <label for="inputLastName">Last Name</label>
+          <input type="text" class="form-control" id="inputLastName" placeholder="Cena" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <!-- Username -->
+        <div class="form-group col-sm-6">
+          <label for="inputUsername">Username</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">@</span>
+            </div>
+            <input type="text" class="form-control" id="inputUsername" placeholder="Username" required>
+          </div>
+        </div>
+        <!-- Password -->
+        <div class="form-group col-sm-6">
+          <label for="inputPassword">Password</label>
+          <input type="password" class="form-control" id="inputPassword" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <!-- Email -->
+        <div class="form-group col-sm-8">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="jcenaFU@wwe.com" required>
+        </div>
+      </div>
+      <!-- Address -->
+      <div class="form-group">
+        <label for="inputAddress">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1241 East Main St" required>
+      </div>
+      <!-- Address 2 -->
+      <div class="form-group">
+        <label for="inputAddress2">Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="form-row">
+        <!-- City -->
+        <div class="form-group col-6">
+          <label for="inputCity">City</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="Stamford" required>
+        </div>
+        <!-- State -->
+        <div class="form-group col-6 col-md-4">
+          <label for="inputState">State</label>
+          <select id="inputState" class="form-control" required>
+            <option value="">...</option>
+            <option value="AL">Alabama</option>
+            <option value="AK">Alaska</option>
+            <option value="AZ">Arizona</option>
+            <option value="AR">Arkansas</option>
+            <option value="CA">California</option>
+            <option value="CO">Colorado</option>
+            <option value="CT">Connecticut</option>
+            <option value="DE">Delaware</option>
+            <option value="DC">District Of Columbia</option>
+            <option value="FL">Florida</option>
+            <option value="GA">Georgia</option>
+            <option value="HI">Hawaii</option>
+            <option value="ID">Idaho</option>
+            <option value="IL">Illinois</option>
+            <option value="IN">Indiana</option>
+            <option value="IA">Iowa</option>
+            <option value="KS">Kansas</option>
+            <option value="KY">Kentucky</option>
+            <option value="LA">Louisiana</option>
+            <option value="ME">Maine</option>
+            <option value="MD">Maryland</option>
+            <option value="MA">Massachusetts</option>
+            <option value="MI">Michigan</option>
+            <option value="MN">Minnesota</option>
+            <option value="MS">Mississippi</option>
+            <option value="MO">Missouri</option>
+            <option value="MT">Montana</option>
+            <option value="NE">Nebraska</option>
+            <option value="NV">Nevada</option>
+            <option value="NH">New Hampshire</option>
+            <option value="NJ">New Jersey</option>
+            <option value="NM">New Mexico</option>
+            <option value="NY">New York</option>
+            <option value="NC">North Carolina</option>
+            <option value="ND">North Dakota</option>
+            <option value="OH">Ohio</option>
+            <option value="OK">Oklahoma</option>
+            <option value="OR">Oregon</option>
+            <option value="PA">Pennsylvania</option>
+            <option value="RI">Rhode Island</option>
+            <option value="SC">South Carolina</option>
+            <option value="SD">South Dakota</option>
+            <option value="TN">Tennessee</option>
+            <option value="TX">Texas</option>
+            <option value="UT">Utah</option>
+            <option value="VT">Vermont</option>
+            <option value="VA">Virginia</option>
+            <option value="WA">Washington</option>
+            <option value="WV">West Virginia</option>
+            <option value="WI">Wisconsin</option>
+            <option value="WY">Wyoming</option>
+          </select>
+        </div>
+        <!-- Zip -->
+        <div class="form-group col-md-2 col-4">
+          <label for="inputZip">Zip</label>
+          <input type="text" class="form-control" id="inputZip" placeholder="06902" required>
+        </div>
+        <!-- Phone Number -->
+        <div class="form-group col-8 col-md-6">
+          <label for="inputPhone">Phone</label>
+          <input type="text" class="form-control" id="inputPhone" placeholder="+ 1" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <!-- SSN -->
+        <div class="form-group col-sm-6">
+          <label for="inputSSN">SSN</label>
+          <input type="password" class="form-control" id="inputSSN" placeholder="XXX-XX-XXXX" required>
+        </div>
+      </div>
+      <!-- Terms and Condition Check box -->
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck" required>
+          <label class="form-check-label" for="gridCheck">
+            I agree to give up all my rights
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-outline-warning btn-block">Confirm</button>
+    </form>
+  </div>
+
+  <!-- Bootstrap 4.3 optional scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
